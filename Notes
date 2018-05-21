@@ -1,6 +1,6 @@
-# **Unix Notes**
+# Unix Notes
 - list
-1. ls -l : long listing
+- ls -l : long listing
 2. man <command name>
 3. Touch
 4. ls -a
