@@ -1,5 +1,8 @@
-# Heading 2
-UnixNotes
+# **Unix Notes**
 - list
-ls -l - long listing
-man <command name>
+1. ls -l : long listing
+2. man <command name>
+3. Touch
+4. ls -a
+5. ls -A
+6. 
