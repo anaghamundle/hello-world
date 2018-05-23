@@ -1,4 +1,4 @@
-### written with the help of [GitHub Pages] (https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+### written with the help of [GitHub Pages](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Unix Notes
  ### List
