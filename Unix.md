@@ -26,10 +26,10 @@
 1. stat *filename*
 1. df -i
 1. cat *filename* - display content of file
-1. touch - creats or modify timestamp of a file
+1. touch - creates or modify timestamp of a file
 1. touch -t : To change the timestamp of file.
 1. rm - used to remove files. 
-   - rm -i : Confirmbefore removing file
+   - rm -i : Confirm before removing file
    - rm -f : Forcefully removes file
    - rm -r : Recursively remove directory
 1. mkdir - used to create a directory
@@ -37,7 +37,11 @@
    - rm -r *filename*
 1. ln  - create links for a file
    - ln -s `file1` `file2` : used to create soft link of a file
-3. 
+3. cp - copies file or files to the destination.
+   - cp -r : -r option is required while copying a directory and its content.
+1. mv - move or rename files & directories
+1. vi *filename* - Used to open file in vi Editor.
+1.
 
 
 
@@ -60,9 +64,11 @@
 
 
 The `Data Block` contains the actual data of the files and directories.
+
 The `Directory Entry Table` is a table of all files and directories in the directory and their inode numbers.
-`Inode Blocks` is where all the are kept.
-#### Name of the file is not stored i  inode but it is stored in directory entry of the directory where fileis kept.
+
+`Inode Blocks` is where all the inodes are kept.
+#### Name of the file is not stored in the inode but it is stored in directory entry of the directory where file is kept.
 
 
 
@@ -73,5 +79,17 @@ The `Directory Entry Table` is a table of all files and directories in the direc
 | When we use the rmcommand on a file, one od thebdirectory entries is removed | different file type   |
 | A file is said to be removed when number of links reduces to zero | permission may be different  |
 | A directory always have atleast two links ("." and actual name od directory) | Number of links will not be increased     |
-| Hard Links for directory are not allowed neither can be created using `ln` command. When a directory is created inside a directory,the link count increases by one | size of the file isdifferent   |
-| 
+| Hard Links for directory are not allowed neither can be created using `ln` command. When a directory is created inside a directory,the link count increases by one | size of the file is different   |
+
+The *vi* editor is the default editor in Unix. It has two main modes of operation, the `Command Mode` & `Insert Mode`.
+Insert mode is used to enter text whereas to navigate or copy/paste we have to use the command mode.
+
+| Keys | Comments |
+|------|----------|
+| i/a | Insert or append mode |
+| I/A | go to start/endof line and then change to insert mode |
+| h/j/k/l | cursor left/down/up/right |
+| w/b | word backward/forward |
+| x/dd | delete character/line |
+| yy | copy line |
+| p | paste |
