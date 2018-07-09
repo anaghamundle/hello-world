@@ -103,4 +103,12 @@ Insert mode is used to enter text whereas to navigate or copy/paste we have to u
 
 the **find** is used to find files in directories. By default, find is recursive. 
 
+*Filters*
+1. cat
+1. head
+1. tail
+1. cut
+1. sort
+1. tr
+1. grep
 
