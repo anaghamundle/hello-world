@@ -87,9 +87,20 @@ Insert mode is used to enter text whereas to navigate or copy/paste we have to u
 | Keys | Comments |
 |------|----------|
 | i/a | Insert or append mode |
-| I/A | go to start/endof line and then change to insert mode |
+| I/A | go to start/end of line and then change to insert mode |
 | h/j/k/l | cursor left/down/up/right |
 | w/b | word backward/forward |
 | x/dd | delete character/line |
 | yy | copy line |
 | p | paste |
+| :%s/foo/bar/g | Changes all occurances of foo with bar |
+| :wq | Save and quit |
+| :w new.txt | Save as new.txt |
+| :q! | Quit but dont save |
+| more | To see the file content a screen at a time |
+| less | To see the file one page at a time |
+| g/G | Start/end of the file |
+
+the **find** is used to find files in directories. By default, find is recursive. 
+
+
