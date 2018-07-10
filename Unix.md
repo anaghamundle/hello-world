@@ -112,3 +112,10 @@ the **find** is used to find files in directories. By default, find is recursive
 1. tr
 1. grep
 
+
+| sort | sort alphabeically by default |
+-------|-------------------------------|
+| -t	| used as delimiter |
+| -k	| used as column |
+
+	-r	sort in reverse order
