@@ -114,8 +114,55 @@ the **find** is used to find files in directories. By default, find is recursive
 
 
 | sort | sort alphabeically by default |
--------|-------------------------------|
+|-------|-------------------------------|
 | -t	| used as delimiter |
 | -k	| used as column |
+| -r | sort in reverse order |
 
-	-r	sort in reverse order
+| tr | Translate characters |
+|----|----------------------|
+| -s | squeeze consecutive occurences of character |
+| -d | delete all occurences of given character |
+
+| cut | cut vertically |
+|-----|----------------|
+|  -d | The default delimiter is TAB which can be changed with switch -d |			
+| -f | Reperesents the field (like column) |
+
+| wc | Count and print line, words and bytes count |
+|-----|--------------------------------------------|
+| -l | shows lines |
+| -w | shows word count |
+
+
+| grep | Searches for pattern and prints the entire line containing the pattern |	
+|------|------------------------------------------------------------------------|
+| -- color | displays matched pattern in color |
+| -e | specify multiple search patterns |
+| -f | provide file as pattern |
+| -i | ignore case |
+| -v (vagal) | show all lines which have not been matched with given pattern |
+| -w | matches pattern if it is a whole word |
+| -x | matches pattern if it is a whole line |
+| -c | print count of the matching pattern |
+| -l | shows file name where pattern has matched |
+| -L | shows file name where pattern has not matched |
+| -m NUM | stop reading file after Num matching lines |
+| -o | print pattern only |
+| -q | [quiet] suppress output and only written exit code |
+
+
+| cat | Concatenate files and print on standard output |
+|-----|------------------------------------------------|
+| -n | number all lines |
+| -e | shows $ at the end of each line |
+| -s | Suppress repeated empty output lines |
+| -v | shows non printable character except line ending character and TAB|
+| -T | Displays TAB as ^ |
+
+
+| head	- number | Show first part of files |
+| tail	- number | Show last part of files |
+| -n +number | Show last part of files starting with given number |
+
+
