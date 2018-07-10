@@ -162,6 +162,7 @@ the **find** is used to find files in directories. By default, find is recursive
 
 
 | head	- number | Show first part of files |
+|---------------|--------------------------|
 | tail	- number | Show last part of files |
 | -n +number | Show last part of files starting with given number |
 
