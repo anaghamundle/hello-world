@@ -166,4 +166,13 @@ the **find** is used to find files in directories. By default, find is recursive
 | tail	- number | Show last part of files |
 | -n +number | Show last part of files starting with given number |
 
-
+ifcongig -a
+*sudo -i* : sudo lets you run commands in your own user account with root privileges. *su* lets you switch user so that you're actually logged in as root. After running sudo -i all subsequent commands you run will be run as though you had run them with sudo.
+sudo -s runs a shell with root privileges.
+*adduser* : To create user
+*groupadd* : Create a new group
+*groupdel* : delete a group 
+*id* : command shows UserID and GroupID
+*/etc/passwd* : When user account created or deleted, this file gets updated automatically. Each line in this file represents user account information. Username:x(encrypted password file):UserID:GruoupID:Description of the user(e.g.full name/work phone):User home directory:User's default shell
+/etc/group: shows list of groups.
+*/etc/skel* : It isa directory which contains files and directories that are automatically copied to new user's home directory when user is created using *adduser*. It allows Admin to create default home directory for all users. 
