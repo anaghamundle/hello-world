@@ -167,8 +167,11 @@ the **find** is used to find files in directories. By default, find is recursive
 | -n +number | Show last part of files starting with given number |
 
 ifcongig -a
+
 *sudo -i* : sudo lets you run commands in your own user account with root privileges. *su* lets you switch user so that you're actually logged in as root. After running sudo -i all subsequent commands you run will be run as though you had run them with sudo.
+
 sudo -s runs a shell with root privileges.
+
 *adduser* : To create user
 *groupadd* : Create a new group
 *groupdel* : delete a group 
